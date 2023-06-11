@@ -1,8 +1,24 @@
-# React-Calculator
+# Ex-06:
 ## Create a simple calculator built with React
-## PROGRAM:
+### AIM:
+The aim of this code is to create a simple calculator using React. The calculator allows users to perform basic arithmetic calculations.
+### ALGORITHM:
+1. Import the necessary dependencies from the React library and the CSS file.
+2. Create a functional component called "App" to represent the calculator.
+3. Initialize the state variable "result" using the useState hook to store the current calculation result.
+4. Implement functions to handle different actions:
+* "handleClick": Concatenates the clicked button's name to the current result.
+* "handleClear": Clears the result, resetting it to an empty string.
+* "handleCalculate": Evaluates the result expression using the eval() function, sets the result to the calculated value, or displays an error message if the expression is invalid.
+5. Render the UI elements using JSX:
+* Display a heading for the calculator.
+* Create an input field to display the result, which is read-only.
+* Create a keypad with buttons for digits, operators, and special functions.
+* Attach the appropriate event handlers to each button.
+* Apply CSS classes and styles to the UI elements to achieve the desired layout and appearance.
+### PROGRAM:
 ### App.js:
-```
+```javascript
 import React, { useState } from 'react';
 import './App.css';
 
@@ -113,9 +129,11 @@ button {
   grid-column: span 4;
 }
 ```
-## OUTPUT:
+### OUTPUT:
 
 <img width="332" alt="1" src="https://github.com/KeerthikaNagarajan/React-Calculator/assets/93427089/2e3b18d1-f891-46fb-9aaf-97f36e0c44c6">
 
 <img width="320" alt="2" src="https://github.com/KeerthikaNagarajan/React-Calculator/assets/93427089/e8d53ff2-4582-4022-b376-cd051afa019f">
 
+### RESULT:
+ The code will generate a simple calculator application with a user interface. 
